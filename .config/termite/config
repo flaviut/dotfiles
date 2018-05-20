@@ -38,47 +38,46 @@ scrollback_lines = 10000
 # "off", "left" or "right"
 #scrollbar = off
 
+# X::Dotshare theme
 [colors]
 
 # special
-foreground      = #ababab
-foreground_bold = #ababab
-cursor          = #ababab
-background      = #000000
+foreground      = #d7d0c7
+foreground_bold = #d7d0c7
+cursor          = #d7d0c7
+background      = #151515
 
 # black
-color0  = #000000
-color8  = #343434
+color0  = #101010
+color8  = #404040
 
 # red
-color1  = #e92f2f
-color9  = #e92f2f
+color1  = #e84f4f
+color9  = #d23d3d
 
 # green
-color2  = #0ed839
-color10 = #0ed839
+color2  = #b8d68c
+color10 = #a0cf5d
 
 # yellow
-color3  = #dddd13
-color11 = #dddd13
+color3  = #e1aa5d
+color11 = #f39d21
 
 # blue
-color4  = #3b48e3
-color12 = #3b48e3
+color4  = #7dc1cf
+color12 = #4e9fb1
 
 # magenta
-color5  = #f996e2
-color13 = #f996e2
+color5  = #9b64fb
+color13 = #8542ff
 
 # cyan
-color6  = #23edda
-color14 = #23edda
+color6  = #6d878d
+color14 = #42717b
 
 # white
-color7  = #ababab
-color15 = #f9f9f9
-
-
+color7  = #dddddd
+color15 = #dddddd
 [hints]
 #font = Monospace 12
 #foreground = #dcdccc
