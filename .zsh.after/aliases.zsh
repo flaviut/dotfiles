@@ -4,3 +4,5 @@ function steam() {
 
 alias ssh="TERM=xterm-256color ssh"
 alias docker="sudo docker"
+alias ncdu="ncdu --color dark -rr -x"
+alias diff=diff-so-fancy
