@@ -49,8 +49,8 @@ bindsym XF86AudioRaiseVolume exec "pactl set-sink-volume 0 +5%"
 bindsym XF86AudioLowerVolume exec "pactl set-sink-volume 0 -5%"
 bindsym XF86AudioMicMute exec "pactl set-source-mute 1 toggle"
 
-bindsym XF86MonBrightnessDown exec "xbacklight -steps 1 -time 0 -dec 5"
-bindsym XF86MonBrightnessUp exec "xbacklight -steps 1 -time 0 -inc 5"
+bindsym XF86MonBrightnessDown exec "brillo -U 5"
+bindsym XF86MonBrightnessUp exec "brillo -A 5"
 
 bindsym $mod+l exec "xscreensaver-command -lock"
 bindsym XF86Lock exec "xscreensaver-command -lock"
