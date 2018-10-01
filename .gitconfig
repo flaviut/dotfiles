@@ -5,3 +5,5 @@
 [rerere]
 	enabled = 1
 	autoupdate = true
+[core]
+	editor = nvim
