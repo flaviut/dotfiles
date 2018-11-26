@@ -7,3 +7,5 @@
 	autoupdate = true
 [core]
 	editor = nvim
+[commit]
+	gpgsign = true
