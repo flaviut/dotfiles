@@ -53,8 +53,8 @@ bindsym XF86AudioMicMute exec "pactl set-source-mute @DEFAULT_SOURCE@ toggle"
 bindsym XF86MonBrightnessDown exec "brillo -U 5"
 bindsym XF86MonBrightnessUp exec "brillo -A 5"
 
-bindsym $mod+l exec "xscreensaver-command -lock"
-bindsym XF86Lock exec "xscreensaver-command -lock"
+bindsym $mod+l exec "xsecurelock"
+bindsym XF86Lock exec "xsecurelock"
 
 # change focus
 bindsym $mod+$left focus left
